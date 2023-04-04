@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="contenu">
+		<h1>CHANGE</h1>
+		<label>Montant en CFA :</label><br>
+		<span id="erreurCfa"></span><br>
+		<input type="text" name="" id="idCfa" onkeyup="convertCfa()"><br>
+		<label>Montant en Euros</label><br>
+		<span id="erreurEuro"></span><br>
+		<input type="text" name="" id="idEuro" onkeyup="convertEuro()" ><br>
+		<label>Montant en Dollars</label><br>
+		<span id="erreurDollar"></span><br>
+		<input type="text" name="" id="idDollar" onkeyup="convertDollar()"><br>
+		<button id="convert" disabled>VALIDER</button><br>
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
